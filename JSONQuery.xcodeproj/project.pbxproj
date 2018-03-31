@@ -8,8 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9EB43EF6206D3CDD008EB0DC /* JSONQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB43EEC206D3CDD008EB0DC /* JSONQuery.framework */; };
-		9EB43EFB206D3CDD008EB0DC /* JSONQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43EFA206D3CDD008EB0DC /* JSONQueryTests.swift */; };
 		9EB43EFD206D3CDD008EB0DC /* JSONQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB43EEF206D3CDD008EB0DC /* JSONQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB43F08206D3D21008EB0DC /* JSONQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F07206D3D21008EB0DC /* JSONQueryComponent.swift */; };
+		9EB43F0B206D3D91008EB0DC /* DictionarySubscriptQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F0A206D3D91008EB0DC /* DictionarySubscriptQueryComponent.swift */; };
+		9EB43F0F206D3DCB008EB0DC /* DictionarySubscriptComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F0E206D3DCB008EB0DC /* DictionarySubscriptComponentTests.swift */; };
+		9EB43F11206D3FC9008EB0DC /* ArraySubscriptQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F10206D3FC9008EB0DC /* ArraySubscriptQueryComponent.swift */; };
+		9EB43F13206D4002008EB0DC /* ArraySubscriptQueryComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F12206D4002008EB0DC /* ArraySubscriptQueryComponentTests.swift */; };
+		9EB43F15206DBBC0008EB0DC /* DictionaryKeysFunctionQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F14206DBBC0008EB0DC /* DictionaryKeysFunctionQueryComponent.swift */; };
+		9EB43F17206DBBD9008EB0DC /* DictionaryKeysFunctionQueryComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F16206DBBD9008EB0DC /* DictionaryKeysFunctionQueryComponentTests.swift */; };
+		9EB43F19206DBE5A008EB0DC /* DictionaryValuesFunctionQueryComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F18206DBE5A008EB0DC /* DictionaryValuesFunctionQueryComponentTests.swift */; };
+		9EB43F1B206DBE8C008EB0DC /* DictionaryValuesFunctionQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F1A206DBE8C008EB0DC /* DictionaryValuesFunctionQueryComponent.swift */; };
+		9EB43F1D206DC028008EB0DC /* ArrayFlatMapFunctionQueryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F1C206DC028008EB0DC /* ArrayFlatMapFunctionQueryComponent.swift */; };
+		9EB43F1F206DC2E8008EB0DC /* ArrayFlatMapFunctionQueryComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F1E206DC2E8008EB0DC /* ArrayFlatMapFunctionQueryComponentTests.swift */; };
+		9EB43F21206DC685008EB0DC /* JSONQueryComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB43F20206DC685008EB0DC /* JSONQueryComponentTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +38,19 @@
 		9EB43EEF206D3CDD008EB0DC /* JSONQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONQuery.h; sourceTree = "<group>"; };
 		9EB43EF0206D3CDD008EB0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB43EF5206D3CDD008EB0DC /* JSONQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EB43EFA206D3CDD008EB0DC /* JSONQueryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONQueryTests.swift; sourceTree = "<group>"; };
 		9EB43EFC206D3CDD008EB0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB43F07206D3D21008EB0DC /* JSONQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F0A206D3D91008EB0DC /* DictionarySubscriptQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySubscriptQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F0E206D3DCB008EB0DC /* DictionarySubscriptComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySubscriptComponentTests.swift; sourceTree = "<group>"; };
+		9EB43F10206D3FC9008EB0DC /* ArraySubscriptQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySubscriptQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F12206D4002008EB0DC /* ArraySubscriptQueryComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySubscriptQueryComponentTests.swift; sourceTree = "<group>"; };
+		9EB43F14206DBBC0008EB0DC /* DictionaryKeysFunctionQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryKeysFunctionQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F16206DBBD9008EB0DC /* DictionaryKeysFunctionQueryComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryKeysFunctionQueryComponentTests.swift; sourceTree = "<group>"; };
+		9EB43F18206DBE5A008EB0DC /* DictionaryValuesFunctionQueryComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryValuesFunctionQueryComponentTests.swift; sourceTree = "<group>"; };
+		9EB43F1A206DBE8C008EB0DC /* DictionaryValuesFunctionQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryValuesFunctionQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F1C206DC028008EB0DC /* ArrayFlatMapFunctionQueryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFlatMapFunctionQueryComponent.swift; sourceTree = "<group>"; };
+		9EB43F1E206DC2E8008EB0DC /* ArrayFlatMapFunctionQueryComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFlatMapFunctionQueryComponentTests.swift; sourceTree = "<group>"; };
+		9EB43F20206DC685008EB0DC /* JSONQueryComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONQueryComponentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,7 @@
 		9EB43EEE206D3CDD008EB0DC /* JSONQuery */ = {
 			isa = PBXGroup;
 			children = (
+				9EB43F06206D3CF4008EB0DC /* Querying */,
 				9EB43EEF206D3CDD008EB0DC /* JSONQuery.h */,
 				9EB43EF0206D3CDD008EB0DC /* Info.plist */,
 			);
@@ -80,10 +103,52 @@
 		9EB43EF9206D3CDD008EB0DC /* JSONQueryTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EB43EFA206D3CDD008EB0DC /* JSONQueryTests.swift */,
+				9EB43F0C206D3DA8008EB0DC /* Querying */,
 				9EB43EFC206D3CDD008EB0DC /* Info.plist */,
 			);
 			path = JSONQueryTests;
+			sourceTree = "<group>";
+		};
+		9EB43F06206D3CF4008EB0DC /* Querying */ = {
+			isa = PBXGroup;
+			children = (
+				9EB43F09206D3D65008EB0DC /* Components */,
+				9EB43F07206D3D21008EB0DC /* JSONQueryComponent.swift */,
+			);
+			path = Querying;
+			sourceTree = "<group>";
+		};
+		9EB43F09206D3D65008EB0DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9EB43F1C206DC028008EB0DC /* ArrayFlatMapFunctionQueryComponent.swift */,
+				9EB43F10206D3FC9008EB0DC /* ArraySubscriptQueryComponent.swift */,
+				9EB43F14206DBBC0008EB0DC /* DictionaryKeysFunctionQueryComponent.swift */,
+				9EB43F0A206D3D91008EB0DC /* DictionarySubscriptQueryComponent.swift */,
+				9EB43F1A206DBE8C008EB0DC /* DictionaryValuesFunctionQueryComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9EB43F0C206D3DA8008EB0DC /* Querying */ = {
+			isa = PBXGroup;
+			children = (
+				9EB43F0D206D3DB1008EB0DC /* Components */,
+				9EB43F20206DC685008EB0DC /* JSONQueryComponentTests.swift */,
+			);
+			path = Querying;
+			sourceTree = "<group>";
+		};
+		9EB43F0D206D3DB1008EB0DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9EB43F1E206DC2E8008EB0DC /* ArrayFlatMapFunctionQueryComponentTests.swift */,
+				9EB43F12206D4002008EB0DC /* ArraySubscriptQueryComponentTests.swift */,
+				9EB43F16206DBBD9008EB0DC /* DictionaryKeysFunctionQueryComponentTests.swift */,
+				9EB43F0E206D3DCB008EB0DC /* DictionarySubscriptComponentTests.swift */,
+				9EB43F18206DBE5A008EB0DC /* DictionaryValuesFunctionQueryComponentTests.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +213,7 @@
 				TargetAttributes = {
 					9EB43EEB206D3CDD008EB0DC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					9EB43EF4206D3CDD008EB0DC = {
@@ -196,6 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EB43F0B206D3D91008EB0DC /* DictionarySubscriptQueryComponent.swift in Sources */,
+				9EB43F11206D3FC9008EB0DC /* ArraySubscriptQueryComponent.swift in Sources */,
+				9EB43F1B206DBE8C008EB0DC /* DictionaryValuesFunctionQueryComponent.swift in Sources */,
+				9EB43F15206DBBC0008EB0DC /* DictionaryKeysFunctionQueryComponent.swift in Sources */,
+				9EB43F08206D3D21008EB0DC /* JSONQueryComponent.swift in Sources */,
+				9EB43F1D206DC028008EB0DC /* ArrayFlatMapFunctionQueryComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EB43EFB206D3CDD008EB0DC /* JSONQueryTests.swift in Sources */,
+				9EB43F19206DBE5A008EB0DC /* DictionaryValuesFunctionQueryComponentTests.swift in Sources */,
+				9EB43F13206D4002008EB0DC /* ArraySubscriptQueryComponentTests.swift in Sources */,
+				9EB43F21206DC685008EB0DC /* JSONQueryComponentTests.swift in Sources */,
+				9EB43F0F206D3DCB008EB0DC /* DictionarySubscriptComponentTests.swift in Sources */,
+				9EB43F1F206DC2E8008EB0DC /* ArrayFlatMapFunctionQueryComponentTests.swift in Sources */,
+				9EB43F17206DBBD9008EB0DC /* DictionaryKeysFunctionQueryComponentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +411,7 @@
 		9EB43F01206D3CDD008EB0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rforshaw.JSONQuery;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +433,7 @@
 		9EB43F02206D3CDD008EB0DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +454,7 @@
 		9EB43F04206D3CDD008EB0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JSONQueryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +468,7 @@
 		9EB43F05206D3CDD008EB0DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JSONQueryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
