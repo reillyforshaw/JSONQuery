@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct ArraySubscriptQueryComponent : JSONQueryComponent {
-  let index: Int
+public struct ArraySubscriptQueryComponent : JSONQueryComponent {
+  public let index: Int
   
-  func evaluate(on object: Any) -> Any? {
+  public func evaluate(on object: Any) -> Any? {
     return (object as? [Any]).flatMap { index < $0.endIndex ? $0[index] : nil }
   }
 }

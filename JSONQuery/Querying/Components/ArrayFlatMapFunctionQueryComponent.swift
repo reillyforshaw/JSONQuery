@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct ArrayFlatMapFunctionQueryComponent : JSONQueryComponent {
-  let transform: JSONQuery
+public struct ArrayFlatMapFunctionQueryComponent : JSONQueryComponent {
+  public let transform: JSONQuery
   
-  func evaluate(on object: Any) -> Any? {
+  public func evaluate(on object: Any) -> Any? {
     return (object as? [Any]).map { $0.flatMap { transform.evaluate(on: $0) } }
   }
 }

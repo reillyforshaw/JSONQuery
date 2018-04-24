@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct DictionarySubscriptQueryComponent : JSONQueryComponent {
-  let key: String
+public struct DictionarySubscriptQueryComponent : JSONQueryComponent {
+  public let key: String
   
-  func evaluate(on object: Any) -> Any? {
+  public func evaluate(on object: Any) -> Any? {
     return (object as? [String : Any])?[key]
   }
 }

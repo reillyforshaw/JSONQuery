@@ -1,0 +1,11 @@
+framework module AcmeUnit {
+  umbrella header "AcmeUnit.h"
+
+  export *
+  module * { export * }
+}
+
+module AcmeUnit.Swift {
+    header "AcmeUnit-Swift.h"
+    requires objc
+}

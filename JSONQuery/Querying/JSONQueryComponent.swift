@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol JSONQueryComponent {
+public protocol JSONQueryComponent {
   func evaluate(on object: Any) -> Any?
 }
 
-typealias JSONQuery = [JSONQueryComponent]
+public typealias JSONQuery = [JSONQueryComponent]
 
 extension Array where Element == JSONQueryComponent {
   func evaluate(on object: Any) -> Any? {
