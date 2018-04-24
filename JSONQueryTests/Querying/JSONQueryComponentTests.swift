@@ -45,7 +45,7 @@ class JSONQueryComponentTests : XCTestCase {
     XCTAssertEqual(query.evaluate(on: exampleJSON) as! [String], ["large"])
   }
   
-  func testDrilasdfasdfasdfasdflingAndMapping() {
+  func testDrilingTooFar() {
     let query: JSONQuery = [
       DictionarySubscriptQueryComponent(key: "response"),
       DictionarySubscriptQueryComponent(key: "users"),

@@ -23,9 +23,7 @@ extension Parser {
     var query: JSONQuery = []
 
     var terminate: Bool {
-      return sentinel.map {
-        isFinished || peekCharacter() == $0
-      } ?? isFinished
+      return sentinel.map { peekCharacter() == $0 } ?? isFinished
     }
 
     while !terminate {

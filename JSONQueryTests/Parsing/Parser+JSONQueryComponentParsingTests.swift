@@ -154,7 +154,6 @@ class Parser_JSONQueryComponentParsingTests : XCTestCase {
       _ = try parser.parseQuery()
       XCTFail("Expected an error")
     } catch let Parser.QueryComponentParseError.expectedRightBracket(location) {
-      // TODO improve error here
       XCTAssertEqual(location, input.startIndex(offsetBy: 6))
     } catch {
       XCTFail("Unexpected error: \(error)")
@@ -191,7 +190,6 @@ class Parser_JSONQueryComponentParsingTests : XCTestCase {
       _ = try parser.parseQuery()
       XCTFail("Expected an error")
     } catch let Parser.QueryComponentParseError.expectedRightBracket(location) {
-      // TODO improve error here
       XCTAssertEqual(location, input.startIndex(offsetBy: 6))
     } catch {
       XCTFail("Unexpected error: \(error)")
@@ -213,7 +211,6 @@ class Parser_JSONQueryComponentParsingTests : XCTestCase {
       _ = try parser.parseQuery()
       XCTFail("Expected an error")
     } catch let Parser.QueryComponentParseError.expectedRightBracket(location) {
-      // TODO improve error here
       XCTAssertEqual(location, input.startIndex(offsetBy: 8))
     } catch {
       XCTFail("Unexpected error: \(error)")
