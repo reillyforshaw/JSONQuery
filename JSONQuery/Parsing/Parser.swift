@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import AcmeUnit
 
 public class Parser {
   public enum Error: Swift.Error {
@@ -119,4 +118,3 @@ public class Parser {
     cursor = input.index(cursor, offsetBy: Int(offset))
   }
 }
-
