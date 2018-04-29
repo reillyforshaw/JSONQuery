@@ -14,8 +14,8 @@ public protocol JSONQueryComponent {
 
 public typealias JSONQuery = [JSONQueryComponent]
 
-extension Array where Element == JSONQueryComponent {
-  func evaluate(on object: Any) -> Any? {
+public extension Array where Element == JSONQueryComponent {
+  public func evaluate(on object: Any) -> Any? {
     var next: Any? = object
     
     for component in self {
